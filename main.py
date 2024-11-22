@@ -12,7 +12,7 @@ def load_content(file_path):
 
 def save_content(file_path, content):
     with open(file_path, "w", encoding="utf-8") as file:
-
+        file.write(content)
 file_path = "board.txt"
 
 # Streamlitアプリケーション
@@ -60,3 +60,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    #起動コマンド
+    #$ streamlit run main.py --server.port=8501 --server.enableStaticServing=true
+

@@ -3,6 +3,8 @@
 - --server.port=8501 --server.enableStaticServing=true
 - ローカルネットワーク上で動作
 - パスワードを入力して誰でも編集可能。
+## 画像も貼れる
+<img src="./app/static/test.png" width="800">
 
 | 名前 | 日付 | 備考 |
 | ---- | ---- | ---- |
